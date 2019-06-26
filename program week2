@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+using namespace std;
+int main ()
+{
+string name  , grade = " A"  ;
+	int  score1 = 70 , score2 = 80 , Age , total ; 
+	float gpa = 3.89 ;
+	cout << " Enter your name   : ";
+	getline(cin,name);
+	cout << " Enter score1 : ";
+	cin >> score1 ;
+	cout << " Enter score2 : ";
+	cin >> score2 ;
+	cout << " Total : "<< score1 + score2 << endl;
+	cout << " Enter Grade : " ;
+	cin >> grade ;
+	cout << " Enter GPA : " ;
+	cin >> gpa ;
+  	return(0);
+
+}
